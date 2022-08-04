@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import create from "zustand";
-import { Alert, getState, subscribe } from "./alertStore";
+import { Alert, subscribe } from "./externalJavaScript/alertStore";
 
 // this will be a custom react hook
 // which subscribes to the state that is being controlled
